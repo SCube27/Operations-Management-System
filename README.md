@@ -1,0 +1,1 @@
+# This is the website for storing and managing the internal operations and data for IDEA Furniture Store.
