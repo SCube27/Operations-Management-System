@@ -3,7 +3,7 @@
 
 //E.g. $conn = oci_connect('Paul', 'mypassword22', 'localhost/XE') - Connects to the XE database(service) on local machine, giving access to //tables in the 'Paul' schema using Pauls password. 
 
-$conn = oci_connect('system', 'Configtada@21', 'orcl');
+$conn = oci_connect('YOUR_USERNAME', 'YOUR_PASSWORD', 'orcl');
 
 if (!$conn) {
     $e = oci_error();
